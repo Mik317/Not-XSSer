@@ -23,7 +23,7 @@ This tool is a simple XSS payloads injector that can:
 
 - [ ] Create modules for XSS payloads
 - [ ] Add POST support (now only GET)
-- [ ] Insert output div in report on web panel
+- [x] Insert output div in report on web panel
 - [ ] Fix code (some things are hard coded :scream:)
 
 ## Docs :information_source:
