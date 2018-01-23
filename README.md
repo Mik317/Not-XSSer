@@ -24,6 +24,7 @@ This tool is a simple XSS payloads injector that can:
 - [ ] Create modules for XSS payloads
 - [ ] Add POST support (now only GET)
 - [x] Insert output div in report on web panel
+- [x] Add Team Support (now you can collaborate with your team on the self attacks from different locations)
 - [ ] Fix code (some things are hard coded :scream:)
 
 ## Docs :information_source:
