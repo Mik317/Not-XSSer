@@ -55,7 +55,7 @@ For use proxies, you do specify the `-p` or `--proxy` arguments, and pass the co
 IMPORTANT: The headers that you can see in the photo are different from the output without proxy arg; This because when you use the proxy, some of these tunnells the connection, and return their headers, not of the target url.
 IMPORTANT2: If you are under proxy, and you want use your default proxy, set `--proxy` as `localhost` or `127.0.0.1`
 IMPORTANT3: If you want send requests under TOR, open the service and start it: start the Tor Bundle or execute the follow commands:
-``` service tor start ```, and then, set the proxy parameter like this: ``` -p 'socks5://127.0.0.1:9150' ```.
+``` service tor start ```, and then, set the proxy parameter like this: ``` -p 'socks5://127.0.0.1:9150' ```; For test if you're under TOR correctly, execute the test_tor.py file like this: ``` py test_tor.py ```
 
 ##### Url Argument
 The url argument (`--url` or `-u`), accept url within the resource to test, then, you cannot insert a simple web address of a site, but you do insert the web address and the GET resource of the site:
