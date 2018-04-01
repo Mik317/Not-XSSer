@@ -8,7 +8,7 @@ This tool is a simple XSS payloads injector that can:
 - Inject automatic payloads (Generated in automatic way for all js code inserted)
 - Use modules for XSS exploits [like keylogging,reverse shell,credentials harvester ...](/XSSer/Modules/)
 - Report all in a Web Panel (Django Powered)
-- Connect and send requests under HTTP proxies
+- Connect and send requests under HTTP/sor SOCKS4/5 proxies
 - Search for vuln sites (I recommend you under http proxy for not be banned from Google engine)
 - Synchronization between terminal script and web panel
 - Test for requirements installation
@@ -21,14 +21,14 @@ This tool is a simple XSS payloads injector that can:
 
 ## To do:
 
-- [ ] Create modules for XSS payloads
-- [ ] Add POST support (now only GET)
 - [x] Insert output div in report on web panel
 - [x] Add Team Support (now you can collaborate with your team on the self attacks from different locations)
-- [ ] Fix code (some things are hard coded :scream:)
+- [x] Fix code (some things are hard coded :scream:)
+- [ ] Create modules for XSS payloads
+- [ ] Add POST support (now only GET)
 
 ## Docs :information_source:
-This tool is very simple to use, but I want document all functions for test the final code and for eliminate any doubts;
+This tool is very simple to use, but I want document all functions for test the final code and for delete any doubts;
 
 ##### Help Command
 The help command show in few lines, what does every function, and what arguments it want;
